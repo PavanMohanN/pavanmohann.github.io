@@ -1,0 +1,69 @@
+class1.relative {
+    max-width: 1400px;
+      margin: 40px auto 20px;
+      margin-left: 600px;
+      margin-top: 100px;
+      margin-bottom: 45px;
+  }
+  .text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(68, 68, 68);
+    
+  }
+
+.text1
+{
+    font-size: 25px;
+    margin-left: 600px;
+    text-align: justify;
+    margin-right: 50px;
+}
+.class2
+{
+    margin-top: 45px;
+    margin-left: 600px;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 50px;
+
+}
+.last
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(2, 2, 175);
+    color: white;
+}
+.head2
+{
+    margin-top: 250px;
+}
+.head3
+{
+    margin-top: 250px;
+}
+.somehead
+{
+    font-size: 25px;
+    margin-left: 600px;
+    text-align: justify;
+    margin-right: 50px;
+}
+.head_last
+{
+    margin-top: 250px;
+}
+.last_text
+{
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 50px;
+}
+.images
+{
+    margin-top: 2px;
+}

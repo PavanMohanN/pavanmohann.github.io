@@ -1,0 +1,166 @@
+.description-container
+{
+    max-width: 1400px;
+    margin: 40px auto 20px;
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+
+
+.description-container .floating-image.right
+{
+    float: right;
+    margin-left: 100px;
+    margin-bottom: 240px;
+}
+
+.a{
+margin-top: 45px;
+background-color: rgb(255, 255, 255);
+margin-bottom: 30px;
+position: relative;
+}
+
+
+
+.buttons {
+    width:100%;
+    text-align:center;
+   }
+   .buttons > div {
+    width: calc(100% / 6);  
+    display: inline-block;
+    vertical-align: top;   
+    border:1px solid red;
+    text-align:justify;
+    margin:10%;    
+    padding:20px;
+   }
+
+   .continous {
+    position:absolute;
+  }
+
+
+
+  .xyz
+  {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(11, 0, 110);
+    -webkit-text-stroke: 0.1vw;
+  }
+
+.name {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  
+  text-shadow: 4px 4px 0px #c0bebe;
+  mix-blend-mode: screen;
+  animation: fadeIn 2.5s linear forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.last{
+  background-color: rgb(31, 108, 138);
+}
+
+:root {
+    --clr-primary-200: rgba(0, 134, 187, 0.938);
+    --clr-primary-400: white;
+  
+    --clr-neutral-100: #fff;
+    --clr-neutral-900: #222c2a;
+  
+ 
+  }
+
+    *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+  
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+    background-image: url("abc");
+  }
+
+  body,
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+  }
+
+  h2,
+  h3,
+  p {
+    margin-bottom: 1em;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  .text-center {
+    text-align: center;
+  }
+
+  .container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+  }
+  .split {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: 40em) {
+    .split {
+      flex-direction: row;
+    }
+  
+    .split > * {
+      flex-basis: 100%;
+    }
+  
+    .split > * + * {
+      margin-left: 2em;
+    }
+  }
+
+  .container--narrow {
+    max-width: 34rem;
+  }
+
+  .card {
+    box-shadow: 10 4px 8px 0px rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
